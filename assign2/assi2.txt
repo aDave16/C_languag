@@ -1,0 +1,119 @@
+Overview of C Programming
+ THEORY EXERCISE:
+o Write an essay covering the history and evolution of C programming. Explain
+its importance and why it is still used today.
+
+✍️ Essay: The History and Evolution of C Programming
+
+Introduction
+
+The C programming language has had a profound influence on modern computing. Created in the early 1970s, it has become a foundational language for system software, application development, and programming education. Its efficiency, portability, and simplicity have made it a timeless tool for programmers around the world.
+
+🌟 Origin and History
+
+The story of C begins with the development of early computing systems:
+
+1960s: Before C, languages like Assembly, ALGOL, and BCPL (Basic Combined Programming Language) were widely used.
+
+1967: Martin Richards developed BCPL, a typeless language used for system software.
+
+1969: Ken Thompson created the B language, a simplified version of BCPL, for the development of the UNIX operating system.
+
+1972: Dennis Ritchie, working at Bell Labs, developed the C language by improving the B language, adding data types and other features.
+
+C was initially developed to write the UNIX operating system, which marked a major milestone: an operating system written in a high-level language.
+
+🔄 Evolution of C
+
+Late 1970s: C started becoming popular beyond Bell Labs. It was used in universities and research labs for system-level programming.
+
+1978: Brian Kernighan and Dennis Ritchie published "The C Programming Language", known as K&R C, which became the de facto standard for C programming.
+
+1989: The ANSI C (American National Standards Institute) standard was published (also called C89), making C more portable and consistent across platforms.
+
+1999: C99 introduced new features like inline functions, new data types, and better support for floating-point arithmetic.
+
+2011 & 2018: New versions like C11 and C18 introduced improvements in performance, multithreading support, and more.
+
+💡 Importance of C
+
+Efficiency: C provides low-level access to memory and minimal runtime overhead, making it ideal for performance-critical applications.
+
+Portability: C programs can be compiled and run on different hardware with little or no change.
+
+Foundation for Other Languages: Many modern languages like C++, Java, and Python have borrowed syntax and concepts from C.
+
+Control and Flexibility: C allows fine control over system resources and hardware.
+
+3rd que.
+
+1. Header Files / Preprocessor Directives
+
+These are lines that begin with # and include libraries required for the program
+
+2. Main Function
+
+This is the starting point of any C program. Execution begins from main().
+3. Comments
+
+Used to make code readable. They are not executed by the compiler.
+
+Single-line comment: // This is a comment
+
+Multi-line comment:
+4. Variable Declaration
+
+Variables store data. You must declare the type before use.
+🔹 5. Constants
+
+Constants are fixed values that do not change during execution
+6. Data Types
+
+C supports several data types:
+
+Data Type	Description	Example
+int	Integer values	10, -5
+float	Decimal values	3.14, -2.5
+char	Single characters	'A', 'z'
+
+
+T
+
+7. Loop Control Statements
+ THEORY EXERCISE:
+o Explain the use of break, continue, and goto statements in C. Provide
+examples of each.
+
+->The break statement is used to exit from a loop (for, while, or do-while) or a switch case prematurely, before the loop condition becomes false.
+
+The continue statement is used to skip the current iteration of a loop and move to the next iteration.
+
+The goto statement transfers control to a labeled statement. It can be used to jump to another part of the program. However, its use is discouraged because it makes code harder to understand and maintain (often considered "bad practice").
+
+
+
+10. Pointers in C
+ THEORY EXERCISE:
+o Explain what pointers are in C and how they are declared and initialized. Why
+are pointers important in C?
+->What Are Pointers?
+
+In C, a pointer is a variable that stores the memory address of another variable. Instead of holding a direct value like an int or char, a pointer "points to" the location in memory where a value is stored.
+
+➤ Declaration of Pointers
+
+To declare a pointer, use the * symbol:
+Why Are Pointers Important in C?
+
+Pointers are fundamental in C for several reasons:
+
+Efficiency: Direct access to memory allows high performance.
+
+Dynamic Memory Allocation: Required for using malloc(), calloc(), etc.
+
+Function Arguments: Allows functions to modify variables outside their scope (pass-by-reference).
+
+Arrays and Strings: Arrays are tightly tied to pointer concepts.
+
+Data Structures: Used in linked lists, trees, and other structures
+
